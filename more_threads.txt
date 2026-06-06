@@ -1,0 +1,63 @@
+
+[*] Attempting AXFR zone transfer for zonetransfer.me...
+[*] Trying nameserver: nsztm2.digi.ninja
+[!] Zone transfer SUCCESS on nsztm2.digi.ninja — records below:
+    @.zonetransfer.me
+    _acme-challenge.zonetransfer.me
+    _sip._tcp.zonetransfer.me
+    14.105.196.5.IN-ADDR.ARPA.zonetransfer.me
+    asfdbauthdns.zonetransfer.me
+    asfdbbox.zonetransfer.me
+    asfdbvolume.zonetransfer.me
+    canberra-office.zonetransfer.me
+    cmdexec.zonetransfer.me
+    contact.zonetransfer.me
+    dc-office.zonetransfer.me
+    deadbeef.zonetransfer.me
+    dr.zonetransfer.me
+    DZC.zonetransfer.me
+    email.zonetransfer.me
+    Hello.zonetransfer.me
+    home.zonetransfer.me
+    Info.zonetransfer.me
+    internal.zonetransfer.me
+    intns1.zonetransfer.me
+    intns2.zonetransfer.me
+    office.zonetransfer.me
+    ipv6actnow.org.zonetransfer.me
+    owa.zonetransfer.me
+    robinwood.zonetransfer.me
+    rp.zonetransfer.me
+    sip.zonetransfer.me
+    sqli.zonetransfer.me
+    sshock.zonetransfer.me
+    staging.zonetransfer.me
+    alltcpportsopen.firewall.test.zonetransfer.me
+    testing.zonetransfer.me
+    vpn.zonetransfer.me
+    www.zonetransfer.me
+    xss.zonetransfer.me
+
+[*] Loading wordlist: subdomains-top1million-5000.txt
+[*] Scanning zonetransfer.me with 5000 words using 50 threads...
+
+[+] Found: email.zonetransfer.me -> 74.125.206.26
+[+] Found: www.zonetransfer.me -> 5.196.105.14
+[+] Found: vpn.zonetransfer.me -> 174.36.59.154
+[+] Found: office.zonetransfer.me -> 4.23.39.254
+[+] Found: staging.zonetransfer.me -> 99.86.12.87, 99.86.12.56, 99.86.12.9, 99.86.12.126
+[+] Found: home.zonetransfer.me -> 127.0.0.1
+[+] Found: owa.zonetransfer.me -> 207.46.197.32
+[+] Found: testing.zonetransfer.me -> 5.196.105.14
+
+[*] Scan complete. 8 subdomain(s) found.
+
+--- Summary ---
+  email.zonetransfer.me -> 74.125.206.26
+  home.zonetransfer.me -> 127.0.0.1
+  office.zonetransfer.me -> 4.23.39.254
+  owa.zonetransfer.me -> 207.46.197.32
+  staging.zonetransfer.me -> 99.86.12.87, 99.86.12.56, 99.86.12.9, 99.86.12.126
+  testing.zonetransfer.me -> 5.196.105.14
+  vpn.zonetransfer.me -> 174.36.59.154
+  www.zonetransfer.me -> 5.196.105.14

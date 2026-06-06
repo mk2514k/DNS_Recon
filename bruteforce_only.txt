@@ -1,0 +1,24 @@
+
+[*] Loading wordlist: subdomains-top1million-5000.txt
+[*] Scanning zonetransfer.me with 5000 words using 20 threads...
+
+[+] Found: www.zonetransfer.me -> 5.196.105.14
+[+] Found: vpn.zonetransfer.me -> 174.36.59.154
+[+] Found: email.zonetransfer.me -> 74.125.206.26
+[+] Found: staging.zonetransfer.me -> 99.86.12.56, 99.86.12.126, 99.86.12.87, 99.86.12.9
+[+] Found: office.zonetransfer.me -> 4.23.39.254
+[+] Found: home.zonetransfer.me -> 127.0.0.1
+[+] Found: owa.zonetransfer.me -> 207.46.197.32
+[+] Found: testing.zonetransfer.me -> 5.196.105.14
+
+[*] Scan complete. 8 subdomain(s) found.
+
+--- Summary ---
+  email.zonetransfer.me -> 74.125.206.26
+  home.zonetransfer.me -> 127.0.0.1
+  office.zonetransfer.me -> 4.23.39.254
+  owa.zonetransfer.me -> 207.46.197.32
+  staging.zonetransfer.me -> 99.86.12.56, 99.86.12.126, 99.86.12.87, 99.86.12.9
+  testing.zonetransfer.me -> 5.196.105.14
+  vpn.zonetransfer.me -> 174.36.59.154
+  www.zonetransfer.me -> 5.196.105.14
