@@ -53,3 +53,4 @@ The brute-force returned 0 hits against `zonetransfer.me` — the wordlist guess
 | `bruteforce_only.txt` | Brute-force only run — no AXFR, 20 threads, 8 subdomains found |
 | `more_threads.txt` | Full run with 50 threads — AXFR + brute-force |
 | `bruteforce_axfr.txt` | Standard run output |
+| `subdomains-top1million-5000` | can find on SecList's Github. Used as the wordlist file |
