@@ -34,25 +34,6 @@ pip install dnspython
 
 You'll also need a subdomain wordlist. The one used here is `subdomains-top1million-5000.txt` from [SecLists](https://github.com/danielmiessler/SecLists/tree/master/Discovery/DNS) — too large to include in the repo, download separately.
 
----
-
-## Usage
-
-```bash
-# AXFR attempt + brute-force
-python Subdomain_finder.py zonetransfer.me -w Subdomains-top1million-5000.txt
-
-# More threads (faster)
-python Subdomain_finder.py zonetransfer.me -w Subdomains-top1million-5000.txt -t 50
-
-# Brute-force only, skip AXFR
-python Subdomain_finder.py zonetransfer.me -w Subdomains-top1million-5000.txt --no-axfr
-
-# Save output to file
-python Subdomain_finder.py zonetransfer.me -w Subdomains-top1million-5000.txt > results.txt
-```
-
-`zonetransfer.me` is a domain intentionally set up to allow zone transfers — it's the standard target for testing this technique safely and legally.
 
 ---
 
